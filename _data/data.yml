@@ -3,187 +3,113 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Nazareno Lorenzo
+  tagline: Senior Software Engineer
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: nazarenolorenzo@gmail.com
+  phone:
+  website: www.nazarenolorenzo.com.ar #do not add http://
+  linkedin: nazarenolorenzo
+  github: nazarenol
+  gitlab:
+  bitbucket:
+  twitter: "@nazarenol"
+  stack-overflow: 1068721/nazareno-lorenzo
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
+  languages:
+    - idiom: English
+      level: Fluent
 
-      - idiom: French
-        level: Professional
+    - idiom: Spanish
+      level: Fluent
 
-      - idiom: Spanish
-        level: Professional
+    - idiom: Portuguese
+      level: Intermediate
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+  interests:
+    - item: Electronics and DIY
+    - item: Musical Instruments
+    - item: Photography
+    - item: Cycling
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+  title: Career Profile
+  summary: |
+    I can talk with the same passion about Star Wars than about how to analyze
+    and decompose a complex problem into a simple architecture. I started coding
+    when I was 11 years old, and gave my first conference talk on secure web
+    applications development when I was 17.
+
+    I'm a strong advocate for code quality and better engineering practices, but
+    capable of undertanding and influencing the business priorities, balancing
+    the diverse trade-offs at different stages of a project.
+
+    I'm learning how to broaden my impact in the company by creating a strong
+    team culture, improving the workflows and processes and finding ways to
+    share my experience.
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - role: Senior Software Engineer - Reddit
+    time: October 2019 - Present
+    company: Dublin, Ireland
+    details: |
+      - Bootstrapped a new engineering team, defining the SDLC, guidelines, workflows, oncalls and incident review processes.
+      - Transformed an old, unmaintained product into a modern codebase, infrastructure, monitoring, deployments.
+  - role: Developer Support Engineering - Facebook
+    time: August 2017 - September 2019
+    company: Dublin, Ireland
+    details: |
+      - Brought from an idea to production multiple new support and review tools,
+      both internal and external, leading multiple technical decisions and cross functional
+      communications.
+      - Supported, fixed and handled external communications for bugs and incidents on Facebook public APIs.
+      - Technical referent in the team for System Design, Data Models and Backend decisions.
+      - Interviewer, new hire mentor, one of the most active code reviewers in the org.
+  - role: Software Developer - bunq
+    time: March 2016 - March 2017
+    company: Amsterdam, Netherlands
+    details: |
+      Bunq defines itself as an "IT startup with a banking license", and is the leading dutch challenger bank / fintech startup.
+      - Worked on the architecture of several different projects across the core banking platform and api layers.
+      - Project owner for several projects, such as the billing and testing frameworks.
+  - role: Software Developer - BairesDev
+    time: October 2013 - January 2016
+    company: Remote / Buenos Aires, Argentina
+    details: |
+      Engineering outsourcing and consulting. Worked for several clients, on a wide range of methodologies and technologies. Some clients I worked for were:
+      - *Univision*, the largest spanish language broadcasting channel in North America, worked in the Core development team, as a full-stack developer, in applications that mixed PHP (Zend Framework) and Java (SPRING/JBOSS/Maven).
+      - *Autodesk*, developing a platform to track UX studies results.
+      - *GraphScience*, a PHP based platform for Facebook ads bidding optimization and management. Extensive use of the Facebook APIs. Developed new modules using CodeIgniter, MySQL, MongoDB, Gearman, Memcached and Amazon AWS.
+  - role: Online Marketing Analyst / Developer - Despegar.com
+    time: December 2011 - October 2013
+    company: Buenos Aires, Argentina
+    details: |
+      Latin Americas leader online travel agency.
+      - Worked in the SEO team, developing marketing oriented sites and landing pages high-traffic landing pages with PHP, MySQL, Redis and MongoDB among other technologies, being responsible for platform and technical strategy decisions.
+      - Developed a platform that automated one of the world biggest AdWords campaign at the moment, working in close contacts with Google's partner engineers.
+      - Referent of the team for cross functional work; managing the requests, guidelines and requirements to and from other areas of the company.
+  - role: Web Developer - StudioO
+    time: January 2010 - February 2011
+    company: Buenos Aires, Argentina
+    details: |
+      - FrontEnd and BackEnd development with Html+Javascript+CSS and PHP+MySQL
+      - Server configuration
+      - New technologies research
+      - Presented Internal technical training
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+education:
+  - degree: IT Engineering
+    university: Universidad Tecnológica Nacional
+    time: 2011 - 2013
+    details: (Incomplete)
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Based on a design made with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

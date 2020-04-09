@@ -1,39 +1,50 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
+@media print {
+  @page {
+    size: A4;
+  }
+  body {
+    font-size: 12pt;
+  }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
+  img.avatar {
+    filter: grayscale(1);
+    -webkit-filter: greyscale(1);
+  }
+  .main-wrapper .time {
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .sidebar-wrapper {
+    position: relative;
+    float: none;
+    width: 100%;
+    -webkit-print-color-adjust: exact;
+    height: auto;
+    min-height: 0;
 
-    .remove-container.container-block {
-       display: none;
-    }
+    .contact-container {
+      text-align: center;
+      padding-top: 0;
+      padding-bottom: 0;
 
-    footer {
-       display: none;
+      li {
+        margin-bottom: 0;
+      }
     }
+  }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
+  .skillset .level-bar-inner {
+    background-color: black !important;
+    -webkit-print-color-adjust: exact;
+  }
 
+  footer,
+  .remove-container.container-block,
+  a:after,
+  .stack-overflow,
+  .twitter,
+  .languages-container,
+  .interests-container {
+    display: none;
+  }
 }
